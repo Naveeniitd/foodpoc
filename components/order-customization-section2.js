@@ -74,18 +74,20 @@ const OrderCustomizationSection2 = () => {
           </div>
           <b className="relative">info</b>
         </div>
-        <div className="flex flex-col items-center justify-start gap-[2px] text-dimgray">
+        <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-center justify-start gap-[2px]">
           <div className="rounded-[30.02px] bg-lightgray-100 w-[50.04px] h-[50.04px] flex flex-row p-[3.7529525756835938px] box-border items-start justify-start">
             <div className="rounded-[30.02px] w-[42.53px] h-[42.53px] flex flex-row p-[7.5059051513671875px] box-border items-center justify-center">
               <img
-                className="relative w-[21.45px] h-[21.45px] overflow-hidden shrink-0"
+                className="relative w-[23.98px] h-[23.98px] overflow-hidden shrink-0"
                 alt=""
                 src="/view-in-ar.svg"
               />
             </div>
           </div>
-          <div className="relative">AR View</div>
-        </div>
+          <div className="relative text-[7.99px] font-sansation text-darkgray-200 text-left">
+            AR View
+          </div>
+        </button>
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-center justify-start gap-[2px]">
           <div className="rounded-[30.02px] bg-lightgray-100 w-[50.04px] h-[50.04px] flex flex-row p-[3.7529525756835938px] box-border items-start justify-start">
             <div className="rounded-[30.02px] w-[42.53px] h-[42.53px] flex flex-row p-[7.5059051513671875px] box-border items-center justify-center">

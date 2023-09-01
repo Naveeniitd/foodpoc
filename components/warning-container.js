@@ -43,7 +43,7 @@ const WarningContainer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-darkgreen w-[312px] h-[50px] flex flex-col items-center justify-center text-3xs text-navajowhite">
+      <div className="bg-darkgreen rounded-b-xs w-[312px] h-[50px] flex flex-col items-center justify-center text-3xs text-navajowhite">
         <div className="w-[264px] flex flex-row items-start justify-start gap-[6px]">
           <div className="flex-1 relative leading-[132.41%]">
             <p className="m-0">{`Confused about serving size? `}</p>
