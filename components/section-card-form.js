@@ -24,7 +24,7 @@ const SectionCardForm = ({
       <div className="rounded-xs bg-white flex flex-col pt-0 px-0 pb-2 items-center justify-start">
         <div className="self-stretch flex flex-row py-2.5 px-4 items-center justify-between">
           <b className="relative">Bun</b>
-          <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[18px] h-[18px] overflow-hidden shrink-0">
+          <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[18px] h-[18px] shrink-0">
             <img
               className="absolute h-[66.67%] w-[66.67%] top-[16.67%] right-[16.67%] bottom-[16.67%] left-[16.67%] max-w-full overflow-hidden max-h-full"
               alt=""
