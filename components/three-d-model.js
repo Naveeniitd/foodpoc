@@ -1,26 +1,18 @@
-import React, { useRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import React from 'react';
+import { Canvas, useLoader } from '@react-three/fiber';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-const Box = () => {
-  const mesh = useRef();
-
-  useFrame(() => {
-    mesh.current.rotation.x += 0.01;
-    mesh.current.rotation.y += 0.01;
-  });
-
-  return (
-    <mesh ref={mesh}>
-      <boxGeometry args={[1, 1, 1]} />
-      <meshBasicMaterial color={0x00ff00} />
-    </mesh>
-  );
+const Model = () => {
+  const gltf = useLoader(GLTFLoader, 'https://storage.googleapis.com/3d_model/3DModels/Burger.glb');
+  return <primitive object={gltf.scene} position={[0, 0, 0]} />;
 };
 
 const ThreeDModel = () => {
   return (
-    <Canvas style ={{ width: '100%', height: '600px' }}>
-      <Box />
+    <Canvas camera={{ position: [0, 0, 5] }} style={{ width: '100%', height: '200px' }}>
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+      <Model />
     </Canvas>
   );
 };
