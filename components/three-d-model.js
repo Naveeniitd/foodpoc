@@ -19,7 +19,7 @@ const Box = () => {
 
 const ThreeDModel = () => {
   return (
-    <Canvas colorManagement backgroundColor="#ffffff" style ={{ width: '100%', height: '600px' }}>
+    <Canvas style ={{ width: '100%', height: '600px' }}>
       <Box />
     </Canvas>
   );
