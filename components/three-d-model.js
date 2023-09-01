@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei';
 
 const Model = () => {
   const gltf = useLoader(GLTFLoader, 'https://storage.googleapis.com/3d_model/3DModels/Burger.glb');
-  return <primitive object={gltf.scene} position={[0, 0, 0]} />;
+  return <primitive object={gltf.scene} position={[0, -1, 0]} />;
 };
 
 const ThreeDModel = () => {

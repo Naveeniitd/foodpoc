@@ -3,15 +3,14 @@ const OrderCustomizationSection2 = () => {
     <div className="absolute top-[484px] left-[0px] w-full h-[316px] text-left text-sm text-dimgray font-sansation">
       <div className="absolute top-[65px] w-full h-[251px]">
         <div className="absolute top-[0px] left-[0px] rounded-t-md rounded-b-none w-full h-[251px] overflow-hidden">
-          <div className="absolute top-[43px] left-[0px] bg-whitesmoke w-full h-full" />
-          <div className="absolute top-[0px] left-[0px] bg-white w-full" />
+          <div className="absolute top-[0px] left-[0px] bg-white w-full h-[87px]" />
           <img
-            className="absolute top-[42.5px] w-full h-px left-[calc(50%_-_200px)]"
+            className="absolute top-[42.5px] w-full h-px"
             alt=""
             src="/vector-3.svg"
           />
         </div>
-        <b className="absolute top-[58px] left-[calc(50%_-_130px)]">
+        <b className="absolute top-[58px] left-[calc(50%_-_125px)]">
           Customize your order and see live changes
         </b>
       </div>
@@ -20,9 +19,9 @@ const OrderCustomizationSection2 = () => {
           <div className="relative">Total Amount</div>
           <b className="relative text-darkslategray">₹230</b>
         </div>
-        <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[14.48px] h-[14.48px] overflow-hidden shrink-0">
+        <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[14.48px] h-[14.48px] shrink-0">
           <img
-            className="absolute h-[20.83%] w-[41.67%] top-[39.58%] right-[29.17%] bottom-[39.58%] left-[29.17%] max-w-full overflow-hidden max-h-full"
+            className="absolute h-[20.83%] w-[41.67%] top-[39.58%] right-[29.17%] bottom-[39.58%] left-[29.17%] max-w-full max-h-full"
             alt=""
             src="/vector.svg"
           />

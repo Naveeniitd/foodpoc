@@ -8,16 +8,7 @@ const AndroidLarge20 = () => {
       <ThreeDModel />
       <OrderCustomizationSection2 />
       <SectionCardForm group2="/group-22.svg" />
-      <WarningContainer grass="/grass.svg" vector="/vector4.svg" />
-      <div className="absolute top-[648px] left-[350px] flex flex-col items-start justify-start gap-[6px]">
-        <div className="relative rounded-xs bg-dimgray w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-        <div className="relative rounded-xs bg-lightgray-100 w-1 h-3" />
-      </div>
+      <WarningContainer />
     </div>
   );
 };

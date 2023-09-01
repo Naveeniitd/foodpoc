@@ -18,7 +18,7 @@ const SectionCardForm = ({
 
   return (
     <div
-      className="absolute top-[648px] left-[calc(50%_-_164px)] flex flex-col items-center justify-start gap-[12px] text-left text-xs text-dimgray font-sansation"
+      className="absolute bg-whitesmoke w-full top-[648px] pt-3 pb-3 flex flex-col items-center justify-start gap-[12px] text-left text-xs text-dimgray font-sansation"
       style={frameDivStyle}
     >
       <div className="rounded-xs bg-white flex flex-col pt-0 px-0 pb-2 items-center justify-start">
@@ -96,9 +96,9 @@ const SectionCardForm = ({
         <div className="flex flex-col items-start justify-start">
           <div className="flex flex-col items-start justify-start gap-[1px]">
             <img
-              className="relative w-[328px] h-0"
+              className="relative w-[328px] h-px"
               alt=""
-              src="/vector-21.svg"
+              src="/vector-2.svg"
             />
             <div className="w-[328px] flex flex-col p-2.5 box-border items-center justify-center gap-[16px]">
               <div className="w-[296px] flex flex-row items-center justify-start">
