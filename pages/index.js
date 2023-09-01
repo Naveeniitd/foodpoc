@@ -4,10 +4,8 @@ import WarningContainer from "../components/warning-container";
 import ThreeDModel from "../components/three-d-model";
 const AndroidLarge20 = () => {
   return (
-    <div className="relative bg-gray-100 w-full h-[800px] overflow-hidden">
+    <div className="relative bg-gray-100 w-full h-full">
       <ThreeDModel />
-
-
       <OrderCustomizationSection2 />
       <SectionCardForm group2="/group-22.svg" />
       <WarningContainer grass="/grass.svg" vector="/vector4.svg" />

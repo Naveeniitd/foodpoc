@@ -1,7 +1,7 @@
-const WarningContainer = ({ grass, vector }) => {
+const WarningContainer = () => {
   return (
-    <div className="absolute top-[23.5px] left-[23.5px] rounded-xs bg-gray-300 [backdrop-filter:blur(13px)] overflow-hidden flex flex-col items-start justify-start text-left text-xs text-white font-sansation border-[0.5px] border-solid border-lightgray-300">
-      <div className="flex flex-col py-3 px-6 items-start justify-start">
+    <div className="absolute top-[23.5px] left-[calc(50%_-_158px)] rounded-xs bg-gray-300 text-left text-xs text-white font-sansation border-[0.5px] border-solid border-lightgray-300">
+      <div className="flex flex-col py-3 px-6">
         <div className="w-[264px] flex flex-row items-center justify-between">
           <b className="relative">Classic Burger</b>
           <div className="flex flex-row items-center justify-end gap-[12px] text-limegreen">
@@ -9,7 +9,7 @@ const WarningContainer = ({ grass, vector }) => {
               <img
                 className="relative w-4 h-4 overflow-hidden shrink-0"
                 alt=""
-                src={grass}
+                src="/grass.svg"
               />
               <b className="relative">1226 Cal</b>
             </div>
@@ -39,7 +39,7 @@ const WarningContainer = ({ grass, vector }) => {
             <b>sesame seed</b>
             <span>{` and `}</span>
             <b>onion</b>
-            <span> , it could be allergic.</span>
+            <span>, it could be allergic.</span>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ const WarningContainer = ({ grass, vector }) => {
                 <img
                   className="absolute h-[91.67%] w-[91.67%] top-[4.17%] right-[4.17%] bottom-[4.17%] left-[4.17%] max-w-full overflow-hidden max-h-full"
                   alt=""
-                  src={vector}
+                  src="/view-in-ar.svg"
                 />
               </button>
             </div>

@@ -1,21 +1,21 @@
 const OrderCustomizationSection2 = () => {
   return (
-    <div className="absolute top-[484px] left-[0px] w-[360px] h-[316px] text-left text-sm text-dimgray font-sansation">
-      <div className="absolute top-[65px] left-[0px] w-[360px] h-[251px]">
-        <div className="absolute top-[0px] left-[0px] rounded-t-md rounded-b-none w-[360px] h-[251px] overflow-hidden">
-          <div className="absolute top-[43px] left-[0px] bg-whitesmoke shadow-[0px_-2px_8px_rgba(0,_0,_0,_0.15)] w-[360px] h-52" />
-          <div className="absolute top-[0px] left-[0px] bg-white w-[360px] h-[87px]" />
+    <div className="absolute top-[484px] left-[0px] w-full h-[316px] text-left text-sm text-dimgray font-sansation">
+      <div className="absolute top-[65px] w-full h-[251px]">
+        <div className="absolute top-[0px] left-[0px] rounded-t-md rounded-b-none w-full h-[251px] overflow-hidden">
+          <div className="absolute top-[43px] left-[0px] bg-whitesmoke w-full h-full" />
+          <div className="absolute top-[0px] left-[0px] bg-white w-full" />
           <img
-            className="absolute top-[42.5px] left-[0px] w-[360px] h-px"
+            className="absolute top-[42.5px] w-full h-px left-[calc(50%_-_200px)]"
             alt=""
             src="/vector-3.svg"
           />
         </div>
-        <b className="absolute top-[58px] left-[calc(50%_-_140px)]">
+        <b className="absolute top-[58px] left-[calc(50%_-_130px)]">
           Customize your order and see live changes
         </b>
       </div>
-      <div className="absolute top-[0px] left-[calc(50%_-_86px)] rounded-t-[10.86px] rounded-b-none bg-white shadow-[0px_-1.8099528551101685px_15.38px_rgba(0,_0,_0,_0.2)] flex flex-row py-[9.049764633178711px] px-[14.479622840881348px] items-center justify-center gap-[9.05px] text-[12.67px] text-darkgray-100">
+      <div className="absolute top-[0px] left-[calc(50%_-_86px)] rounded-t-[10.86px] rounded-b-none bg-white flex flex-row py-[9.049764633178711px] px-[14.479622840881348px] items-center justify-center gap-[9.05px] text-[12.67px] text-darkgray-100">
         <div className="flex flex-row items-start justify-start gap-[11.76px]">
           <div className="relative">Total Amount</div>
           <b className="relative text-darkslategray">₹230</b>
